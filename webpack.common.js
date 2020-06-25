@@ -88,5 +88,35 @@ module.exports = {
       chunks: ["index", "another"],
       filename: "another.html",
     }),
+    new HtmlWebpackPlugin({
+      template: "./src/pages/index_old.html",
+      inject: true,
+      chunks: ["index"],
+      filename: "index_old.html",
+    }),
+    new HtmlWebpackPlugin({
+      template: "./src/pages/dom.html",
+      inject: true,
+      chunks: ["index"],
+      filename: "dom.html",
+    }),
+    new HtmlWebpackPlugin({
+      template: "./src/pages/ogolne.html",
+      inject: true,
+      chunks: ["index"],
+      filename: "ogolne.html",
+    }),
+    new HtmlWebpackPlugin({
+      template: "./src/pages/slub.html",
+      inject: true,
+      chunks: ["index"],
+      filename: "slub.html",
+    }),
+    new HtmlWebpackPlugin({
+      template: "./src/pages/zakupy.html",
+      inject: true,
+      chunks: ["index"],
+      filename: "zakupy.html",
+    }),
   ],
 };

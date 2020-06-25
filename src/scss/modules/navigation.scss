@@ -1,0 +1,28 @@
+.navigation {
+    background: white;
+    padding: 10px;
+    border-radius: 20px;
+    max-width: 600px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-around;
+  
+    &__link {
+      color: black;
+      padding: 5px;
+      text-decoration: none;
+  
+      &--main {
+        color: red;
+      }
+      & div {
+        width: 15px;
+        height: 2px;
+        background-color: black;
+        margin: 3px 0;
+      }
+    }
+    &__link:hover {
+      color: gray;
+    }
+  }
